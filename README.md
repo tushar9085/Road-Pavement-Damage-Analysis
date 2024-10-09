@@ -20,6 +20,3 @@ This repository contains the code and dataset for the research project which is 
 - **mAP@50**: 0.829
 
 ![Output Animation](output.gif)
-
-**Run the Jupyter Notebook**:
-  Use the `Training/Data_Extraction_from_yolov8.ipynb` file to train the model and extract data. Make sure to use the **`yolov8l_model_trained_with_my_data.pt`** model. All instructions are included in the notebook.
