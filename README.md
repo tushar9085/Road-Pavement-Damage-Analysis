@@ -1,0 +1,25 @@
+# Road Pavement Damage Analysis
+
+## Overview
+
+This repository contains the code and dataset for the research project which is under review in the **6th International Conference on Electrical Engineering and Information & Communication Technology 2024** conference. The objective of this work is to analyze road damage using computer vision techniques. We created a dataset consisting of 1500 damaged road images categorized into three classes: **potholes**, **cracks**, and **edge cracks**. The dataset was annotated using **Roboflow** and utilized to train **YOLOv5** and **YOLOv8** models for damage detection.
+
+## Dataset Overview
+
+- **Classes**:
+  - **Potholes**
+  - **Cracks**
+  - **Edge Cracks**
+
+
+## YOLOv8 Best Result
+
+- **Class**: **Pothole**
+- **Precision (P)**: 0.820
+- **Recall (R)**: 0.815
+- **mAP@50**: 0.829
+
+![Output Animation](output.gif)
+
+**Run the Jupyter Notebook**:
+  Use the `Training/Data_Extraction_from_yolov8.ipynb` file to train the model and extract data. Make sure to use the **`yolov8l_model_trained_with_my_data.pt`** model. All instructions are included in the notebook.
